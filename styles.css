@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+.calculator{
+    width: 432px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #4a4a4a;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+}
+
+.btn:hover{
+    background-color: #bbbbbb;
+}
+
+.clear, .delete{
+    width: 210px;
+}
+
+.text{
+    background-color: antiquewhite;
+}
+
+.result, .current{
+    width: 430px;
+    min-height: 32px;
+    text-align: right;
+    font-size: 24px;
+    background-color: #4b4b4b;
+    color: white;
+    padding-right: 5px;
+}
